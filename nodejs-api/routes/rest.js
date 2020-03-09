@@ -13,6 +13,7 @@ module.exports = app => {
     APIRouter.get('/buses-stops/previsions/:stopId', StopsController.getStopPrevisions);
     APIRouter.get('/buses-stops/:line/:direction', StopsController.getStopsByLineAndDirection);
     APIRouter.get('/buses', BusesController.getAllBuses);
+    APIRouter.get('/sptrans-version', HomeController.getApiVersion);
 
     app.use('/api/sp', APIRouter);
     app.get('/*', HomeController.getHomePage);

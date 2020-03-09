@@ -38,6 +38,7 @@ $env:MONGO_HOST='localhost'; $env:MONGO_PORT='27017'; $env:MONGO_DB='bmap'; pyth
 
 #### Passo 3
 Entre na pasta `/nodejs-api` copie todo o conteúdo do arquivo `.env.example` para um novo arquivo `.env`. Substitua os "???" da variável `API_OLHO_VIVO_TOKEN` pelo seu token. Na seção [Produção > Iniciar serviços](#iniciar-serviços) logo abaixo é explicado como conseguí-lo.
+Caso necessário, mude a versão utilizada na API alterando a variável `API_OLHO_VIVO_VERSAO`.
 
 #### Passo 4
 
