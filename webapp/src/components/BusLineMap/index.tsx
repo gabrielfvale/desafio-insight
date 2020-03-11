@@ -7,7 +7,7 @@ import BusesMarkers from './BusesMarkers';
 import mainCtx from '../../contexts/mainCtx';
 import StopsMarkers from '../StopsMarkers';
 import BusLineSettings from './BusLineSettings';
-import FloaterReturnButton from '../FloaterReturnButtton';
+import ReturnButton from '../ReturnButton';
 import "./styles.scss";
 
 
@@ -37,7 +37,7 @@ const BusLineMap: FunctionComponent<BusLineMapProps> = ({ buses, originalCenter,
 
     return (
         <>
-            <FloaterReturnButton/>
+            <ReturnButton/>
             <BusLineSettings />
             <DefaultMap bounds={bounds}>
                 <BusesMarkers visible={busesVisibility} buses={buses} />

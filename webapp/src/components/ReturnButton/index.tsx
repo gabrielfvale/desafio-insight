@@ -6,7 +6,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 import './styles.scss';
 
-const FloaterReturnButtton: FunctionComponent = () => {
+const ReturnButtton: FunctionComponent = () => {
     const history = useHistory();
 
     return (
@@ -15,7 +15,7 @@ const FloaterReturnButtton: FunctionComponent = () => {
                 <Button
                     size="large"
                     shape="circle"
-
+                    type="primary"
                     onClick={() => history.push('/')}
                     className="floater-button">
                     <FontAwesomeIcon icon="arrow-left" />
@@ -26,4 +26,4 @@ const FloaterReturnButtton: FunctionComponent = () => {
 
 }
 
-export default FloaterReturnButtton;
+export default ReturnButtton;

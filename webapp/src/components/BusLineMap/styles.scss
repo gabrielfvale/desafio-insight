@@ -3,12 +3,14 @@
 .bus-map-wrapper {
     width: 100%;
     height: 100%;
-    padding: 0.5rem 0.5rem 0.5rem 0;
+    padding: 0.5rem 0.5rem 0.5rem 0.5rem;
     transition: transform 0.3s ease-in-out;
 
+    /*
     &.menu-open {
         transform: translateX($menu-size);
     }
+    */
 
     @media (max-width: $break-md) {
         padding: 0.5rem !important;
