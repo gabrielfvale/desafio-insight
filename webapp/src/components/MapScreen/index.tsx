@@ -6,7 +6,6 @@ import { useMessageCallback, setBusLineAndDirection } from '../../services/wsBus
 import BusLineMap from '../BusLineMap';
 import BusStopsMap from '../BusStopsMap';
 import OverlayBorder from '../OverlayBorder';
-import SideMenu from '../SideMenu';
 import OverlayLoading from '../OverlayLoading';
 import BusesService from '../../services/buses';
 import mainCtx from '../../contexts/mainCtx';
