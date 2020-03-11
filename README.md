@@ -4,6 +4,6 @@ O desafio consiste na melhoria de uma aplicação de demonstração (demo) desen
 
 > *Excerto extraído da documentação do Desafio de programação para seleção de bolsa para o Projeto SPI - Programação Web, [disponível aqui](https://docs.google.com/document/d/1g_DvPw7J1LlYsm8J_mYj3At0vxPYKbu7On4lB4ihuUk/).*
 
-[Link](https://youtu.be/dQw4w9WgXcQ) para screencast explicando a solução do desafio.
+[Link](https://youtu.be/-W5yKfrSEm4) para screencast explicando a solução do desafio.
 
 Para **configuração** do ambiente de desenvolvimento e produção, ver [INSTALL.md](INSTALL.md)
