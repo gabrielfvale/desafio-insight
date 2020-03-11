@@ -173,6 +173,7 @@ const PrevisionPanel: FunctionComponent<PrevisionPanelProps> = ({ previsions, st
                         </div>
                     </TabPane>
                 ))}
+                {/*previsions.length === 0 && <p>Não há nenhum ônibus nessa rota.</p> */}
             </Tabs>
         </div>
     );

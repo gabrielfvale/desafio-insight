@@ -1,7 +1,9 @@
 const axios = require('axios');
 
+const { API_OLHO_VIVO_VERSAO } = process.env;
+
 const BusesAPIConsumer = axios.create({
-    baseURL: `http://api.olhovivo.sptrans.com.br/v2.1`,
+    baseURL: `http://api.olhovivo.sptrans.com.br/v${API_OLHO_VIVO_VERSAO}`,
     withCredentials: true
 });
 
